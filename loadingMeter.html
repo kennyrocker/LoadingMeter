@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="js/lib/jquery-1.9.1.min.js"></script>
+<meta charset=utf-8 />
+<title>Loading Meter</title>
+<link rel="stylesheet" href="css/play.css">
+</head>
+
+<body>
+	
+	<img id="i1" src="img/A.jpg" alt=""/>
+	<img id="i2" src="img/B.jpg" alt=""/>
+	<img id="i3" src="img/C.jpg" alt=""/>
+
+  <!-- <div id="img1" class="imgWrapper"></div>
+  <div id="img2" class="imgWrapper"></div> -->
+
+<script src="js/play.js"></script>
+<script>
+    $(document).ready(function(){
+    	var p1 = new play({idStr:"i1"});
+    	var p2 = new play({idStr:"i2"});
+    	var p3 = new play({idStr:"i3"});
+    });
+</script>
+</body>
+</html>
